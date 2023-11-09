@@ -6,5 +6,4 @@ before_install:
   - docker build -t ccollinsibe/docker-react -f Dockerfile.dev .
 
 script: 
-  - docker run ccollinsibe/docker-react npm run test -- -- coverage
-  
+  - docker run ccollinsibe/docker-react npm run test -- --coverage
